@@ -29,13 +29,19 @@ pyautogui.doubleClick(1556,792,duration=1)
 pyautogui.doubleClick(526,528,duration=1)
 
 ralizarTarefa()
+
 # -----------------------------------------------------------------------------------------
 #Primeira Conta (OK)
-# AlterandoConta Navegador
+# AlterandoConta Navegador - User2
 
 pyautogui.click( 1546,58,duration=1)
 pyautogui.click( 1330,261,duration=1)
 ralizarTarefa()
 
+# # AlterandoConta Navegador - User3
+pyautogui.click( 1546,58,duration=1)
+pyautogui.click( 1336,293 ,duration=1)
+ralizarTarefa()
 
 
+#Para adicionar novos usuarios selecione a cordenada de troca no navegador e chame a funcao ralizarTarefa()
